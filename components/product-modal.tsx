@@ -125,6 +125,7 @@ export function ProductModal({ product, onClose }: ProductModalProps) {
           onTouchMove={onTouchMove}
           onTouchEnd={onTouchEnd}
         >
+          
           <Image
             src={currentProduct.images[currentImageIndex]}
             alt={currentProduct.titleAr}
@@ -132,7 +133,27 @@ export function ProductModal({ product, onClose }: ProductModalProps) {
             className="object-cover"
             sizes="(max-width: 640px) 100vw, 400px"
             priority
-          />
+          />{/* الصورة الثانية اللي بدك اياها تظهر فوق الأولى */}
+          <div className="relative w-full h-full group overflow-hidden">
+  
+  {/* الصورة الأساسية (الخلفية) */}
+  <Image
+    src={currentProduct.images[1]}
+    alt={currentProduct.titleAr}
+    fill
+    className="object-cover transition-all duration-500 group-hover:scale-110"
+  />
+
+  {/* الصورة الشفافة (اللي فوق) */}
+  {currentProduct.images[0] && (
+    <Image
+      src={currentProduct.images[0]}
+      alt="overlay"
+      fill
+      className="object-contain z-10 pointer-events-none transition-all duration-500 group-hover:scale-105"
+    />
+  )} </div>
+            
 
           {/* Image counter */}
           <div className="absolute top-3 left-3 bg-black/50 text-foreground text-xs px-2 py-1 rounded-full">

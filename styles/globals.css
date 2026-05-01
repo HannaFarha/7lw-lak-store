@@ -1,6 +1,27 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
+.image-container {
+  position: relative; /* ضروري جداً لتحديد مجال الصور */
+  width: 300px;      /* عدل العرض حسب حاجتك */
+  height: 300px;     /* عدل الطول حسب حاجتك */
+}
 
+/* صورة الخلفية */
+.bg-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* الصورة الشفافة التي ستوضع فوق الأولى */
+.overlay-img {
+  position: absolute; /* لجعلها تطفو فوق العناصر */
+  top: 0;            /* تبدأ من أعلى نقطة في الحاوية */
+  left: 0;           /* تبدأ من أقصى اليسار */
+  width: 100%;       /* لتغطي نفس مساحة الصورة الخلفية */
+  height: 100%;
+  object-fit: contain; /* للحفاظ على أبعاد الصورة بدون تمطيط */
+  z-index: 10;}       /* لضمان أنها في الطبقة العليا */
 @custom-variant dark (&:is(.dark *));
 
 :root {

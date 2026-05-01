@@ -78,7 +78,7 @@ export function ProfileInfo() {
               : "bg-insta-blue text-foreground"
           }`}
         >
-          {isFollowing ? "مو هون ع الانستا " : "هل تابعتنا ؟؟"}
+          {isFollowing ? "مو هون..ع الانستا " : "هل تابعتنا ؟؟"}
         </button>
         <a
           href={getWhatsAppLink()}

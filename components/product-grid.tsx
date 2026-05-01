@@ -54,7 +54,27 @@ export function ProductGrid() {
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 640px) 33vw, 200px"
+              /><div className="relative w-full h-full group overflow-hidden">
+  
+              {/* الصورة الأساسية (الخلفية) */}
+              <Image
+                src={product.images[1]}
+                alt={product.titleAr}
+                fill
+                className="object-cover transition-all duration-500 group-hover:scale-110"
               />
+            
+              {/* الصورة الشفافة (اللي فوق) */}
+              {product.images[0] && (
+                <Image
+                  src={product.images[0]}
+                  alt="overlay"
+                  fill
+                  className="object-contain z-10 pointer-events-none transition-all duration-500 group-hover:scale-105"
+                />
+              )}
+            
+            </div>
               {/* Hover overlay */}
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-end justify-center opacity-0 group-hover:opacity-100">
                 <div className="p-2 text-center w-full">

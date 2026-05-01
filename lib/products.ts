@@ -4,16 +4,19 @@ export interface Product {
   titleAr: string
   price: string
   images: string[]
+  
   description: string
 }
 
 export const products: Product[] = [
   {
+    
     id: 1,
     title: "Wireless Earbuds Pro",
     titleAr: "قطاعة الخضار والفواكه",
     price: "45,000 SYP",
-    images: ["/products/1.jpeg"],
+    images: ["/products/6.png","/products/1.jpeg"],
+
     description: "لقطع الخضار والفواكه بسهولة",
   },
   {
@@ -21,7 +24,7 @@ export const products: Product[] = [
     title: "Smart Watch Elite",
     titleAr: "ساعة ذكية إيليت",
     price: "85,000 SYP",
-    images: ["/products/smart-watch.jpg"],
+    images: ["/products/6.png","/products/smart-watch.jpg"],
     description: "ساعة ذكية مع شاشة AMOLED ومقاومة للماء",
   },
   {
@@ -29,7 +32,7 @@ export const products: Product[] = [
     title: "Luxury Perfume",
     titleAr: "عطر فاخر",
     price: "65,000 SYP",
-    images: ["/products/perfume.jpg"],
+    images: ["/products/6.png","/products/perfume.jpg"],
     description: "عطر فاخر برائحة مميزة تدوم طويلاً",
   },
   {
@@ -37,7 +40,7 @@ export const products: Product[] = [
     title: "Premium Sunglasses",
     titleAr: "نظارات شمسية فاخرة",
     price: "35,000 SYP",
-    images: ["/products/sunglasses.jpg"],
+    images: ["/products/6.png","/products/sunglasses.jpg"],
     description: "نظارات شمسية بتصميم عصري وحماية UV400",
   },
   {
@@ -45,7 +48,7 @@ export const products: Product[] = [
     title: "Leather Wallet",
     titleAr: "قطاعة خضرات",
     price: "100,000 SYP",
-    images: ["/products/leather-wallet.jpg"],
+    images: ["/products/6.png","/products/leather-wallet.jpg"],
     description: "لقطع الخضار والفواكه بسهولة",
   },
   {
@@ -53,7 +56,7 @@ export const products: Product[] = [
     title: "Phone Case Premium",
     titleAr: "كفر هاتف بريميوم",
     price: "15,000 SYP",
-    images: ["/products/phone-case.jpg"],
+    images: ["/products/6.png","/products/phone-case.jpg"],
     description: "كفر حماية فاخر لجميع أنواع الهواتف",
   },
   {
@@ -61,7 +64,7 @@ export const products: Product[] = [
     title: "Travel Backpack",
     titleAr: "حقيبة ظهر للسفر",
     price: "55,000 SYP",
-    images: ["/products/backpack.jpg"],
+    images: ["/products/6.png","/products/backpack.jpg"],
     description: "حقيبة ظهر عملية بتصميم عصري للسفر والعمل",
   },
   {
@@ -69,7 +72,7 @@ export const products: Product[] = [
     title: "Bluetooth Speaker",
     titleAr: "سبيكر بلوتوث",
     price: "40,000 SYP",
-    images: ["/products/bluetooth-speaker.jpg"],
+    images: ["/products/6.png","/products/bluetooth-speaker.jpg"],
     description: "سبيكر بلوتوث محمول بصوت قوي ومقاوم للماء",
   },
   {
@@ -77,7 +80,7 @@ export const products: Product[] = [
     title: "LED Desk Lamp",
     titleAr: "مصباح مكتب LED",
     price: "22,000 SYP",
-    images: ["/products/led-lamp.jpg"],
+    images: ["/products/6.png","/products/led-lamp.jpg"],
     description: "مصباح مكتب LED بتصميم عصري وإضاءة قابلة للتعديل",
   },
 ]
