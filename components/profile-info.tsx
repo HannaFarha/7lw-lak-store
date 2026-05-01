@@ -12,14 +12,14 @@ export function ProfileInfo() {
     <section className="px-4 pb-2" dir="rtl">
       {/* Top row: Avatar + Stats */}
       <div className="flex items-center gap-5">
+    
         {/* Profile Picture */}
         <div className="shrink-0">
           <div className="size-20 rounded-full p-[2.5px] bg-gradient-to-br from-gold-light via-gold to-gold-dark">
-            <div className="size-full rounded-full bg-background p-[2px]">
-              <div className="size-full rounded-full overflow-hidden bg-surface flex items-center justify-center">
-                <span className="text-gold font-bold text-xs leading-tight text-center select-none">
-                  {"7LW.LAK"}
-                </span>
+            <div className="size-full rounded-full bg-background p-[6px]">
+              <div className="size-full rounded-full overflow-hidden bg-surface flex items-center justify-center"><img src="/7lw-lak-logo.jpeg" height={260}  alt="logo" />
+                
+                
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ export function ProfileInfo() {
               : "bg-insta-blue text-foreground"
           }`}
         >
-          {isFollowing ? "متابَع" : "متابعة"}
+          {isFollowing ? "مو هون ع الانستا " : "هل تابعتنا ؟؟"}
         </button>
         <a
           href={getWhatsAppLink()}

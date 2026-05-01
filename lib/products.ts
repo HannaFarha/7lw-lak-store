@@ -11,10 +11,10 @@ export const products: Product[] = [
   {
     id: 1,
     title: "Wireless Earbuds Pro",
-    titleAr: "سماعات لاسلكية برو",
+    titleAr: "قطاعة الخضار والفواكه",
     price: "45,000 SYP",
-    images: ["/products/wireless-earbuds.jpg"],
-    description: "سماعات بلوتوث لاسلكية بجودة صوت عالية مع علبة شحن",
+    images: ["/products/1.jpeg"],
+    description: "لقطع الخضار والفواكه بسهولة",
   },
   {
     id: 2,
@@ -43,10 +43,10 @@ export const products: Product[] = [
   {
     id: 5,
     title: "Leather Wallet",
-    titleAr: "محفظة جلد طبيعي",
-    price: "28,000 SYP",
+    titleAr: "قطاعة خضرات",
+    price: "100,000 SYP",
     images: ["/products/leather-wallet.jpg"],
-    description: "محفظة من الجلد الطبيعي بتصميم أنيق",
+    description: "لقطع الخضار والفواكه بسهولة",
   },
   {
     id: 6,
