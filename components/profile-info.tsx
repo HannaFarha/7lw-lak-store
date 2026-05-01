@@ -32,7 +32,7 @@ export function ProfileInfo() {
             <p className="text-xs text-muted-foreground">{"منشورات"}</p>
           </div>
           <div>
-            <p className="text-lg font-bold text-foreground">1.2K</p>
+            <p className="text-lg font-bold text-foreground">12Mio</p>
             <p className="text-xs text-muted-foreground">{"متابعين"}</p>
           </div>
           <div>
