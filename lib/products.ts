@@ -15,7 +15,7 @@ export const products: Product[] = [
     title: "Wireless Earbuds Pro",
     titleAr: "قطاعة الخضار والفواكه",
     price: "عند الطلب",
-    images: ["/products/1.jpeg"],
+    images: ["/products/1.jpeg","/products/6.png"],
 
     description: "لقطع الخضار والفواكه بسهولة",
   },
@@ -24,7 +24,7 @@ export const products: Product[] = [
     title: "Smart Watch Elite",
     titleAr:"موسع الانف المغناطيسي",
     price: "عند الطلب",
-    images: ["/products/2.jpeg"],
+    images: ["/products/6.png","/products/2.jpeg"],
     description: " يساعد على التنفس والنوم الهادئ",
   },
   {
@@ -32,7 +32,7 @@ export const products: Product[] = [
     title: "Luxury Perfume",
     titleAr: "عطر فاخر",
     price: "عند الطلب",
-    images: ["/products/3.jpeg"],
+    images: ["/products/6.png","/products/3.jpeg"],
     description: "عطر فاخر برائحة مميزة تدوم طويلاً",
   },
   {
@@ -40,7 +40,7 @@ export const products: Product[] = [
     title: "Premium Sunglasses",
     titleAr: "نظارات شمسية فاخرة",
     price: "عند الطلب",
-    images: ["/products/4.jpeg"],
+    images: ["/products/6.png","/products/4.jpeg"],
     description: "نظارات شمسية بتصميم عصري وحماية UV400",
   },
   {
@@ -48,7 +48,7 @@ export const products: Product[] = [
     title: "Leather Wallet",
     titleAr: "قطاعة خضرات",
     price: "عند الطلب",
-    images: ["/products/5.jpeg"],
+    images: ["/products/6.png","/products/5.jpeg"],
     description: "لقطع الخضار والفواكه بسهولة",
   },
   {
@@ -56,7 +56,7 @@ export const products: Product[] = [
     title: "Phone Case Premium",
     titleAr: "كفر هاتف بريميوم",
     price: "عند الطلب",
-    images: ["/products/7.jpeg"],
+    images: ["/products/6.png","/products/7.jpeg"],
     description: "كفر حماية فاخر لجميع أنواع الهواتف",
   },
   {
@@ -71,7 +71,7 @@ export const products: Product[] = [
     id: 8,
     title: "Bluetooth Speaker",
     titleAr: "سبيكر بلوتوث",
-    price: "عند الطلب",
+    price: "40,000 SYP",
     images: ["/products/6.png","/products/bluetooth-speaker.jpg"],
     description: "سبيكر بلوتوث محمول بصوت قوي ومقاوم للماء",
   },
@@ -79,7 +79,7 @@ export const products: Product[] = [
     id: 9,
     title: "LED Desk Lamp",
     titleAr: "مصباح مكتب LED",
-    price: "عند الطلب",
+    price: "22,000 SYP",
     images: ["/products/6.png","/products/led-lamp.jpg"],
     description: "مصباح مكتب LED بتصميم عصري وإضاءة قابلة للتعديل",
   },
