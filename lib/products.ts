@@ -12,66 +12,66 @@ export const products: Product[] = [
   {
     
     id: 1,
-    title: "Wireless Earbuds Pro",
+    title: "Vegetable and Fruit Slicer",
     titleAr: "قطاعة الخضار والفواكه",
-    price: "عند الطلب",
-    images: ["/products/1.jpeg","/products/6.png"],
+    price: "السعر عند الطلب",
+    images: ["","/products/1.jpeg"],
 
     description: "لقطع الخضار والفواكه بسهولة",
   },
   {
     id: 2,
-    title: "Smart Watch Elite",
+    title: "Magnetic Nose Dilator",
     titleAr:"موسع الانف المغناطيسي",
-    price: "عند الطلب",
-    images: ["/products/6.png","/products/2.jpeg"],
+    price: "السعر عند الطلب",
+    images: ["","/products/2.jpeg"],
     description: " يساعد على التنفس والنوم الهادئ",
   },
   {
     id: 3,
-    title: "Luxury Perfume",
-    titleAr: "عطر فاخر",
-    price: "عند الطلب",
-    images: ["/products/6.png","/products/3.jpeg"],
-    description: "عطر فاخر برائحة مميزة تدوم طويلاً",
+    title: "Men's Shoulder Bag",
+    titleAr: "حقيبة الكتف الرجالية ",
+    price: "السعر عند الطلب",
+    images: ["","/products/3.jpeg"],
+    description: "حقيبة كتف بحجم مثالي ومظهر مميز وامان لاغراضك",
   },
   {
     id: 4,
-    title: "Premium Sunglasses",
-    titleAr: "نظارات شمسية فاخرة",
-    price: "عند الطلب",
-    images: ["/products/6.png","/products/4.jpeg"],
+    title: "Magnetic Mesh",
+    titleAr: "الشبك المغناطيسي",
+    price: "السعر عند الطلب",
+    images: ["","/products/4.jpeg"],
     description: "نظارات شمسية بتصميم عصري وحماية UV400",
   },
   {
     id: 5,
-    title: "Leather Wallet",
-    titleAr: "قطاعة خضرات",
-    price: "عند الطلب",
-    images: ["/products/6.png","/products/5.jpeg"],
-    description: "لقطع الخضار والفواكه بسهولة",
+    title: "The Portable Chair",
+    titleAr: "الكرسي المحمول",
+    price: "السعر عند الطلب",
+    images: ["","/products/5.jpeg"],
+    description: "كرسي محمول بحجم صغير للاستعمال بأماكن متعددة",
   },
   {
     id: 6,
-    title: "Phone Case Premium",
-    titleAr: "كفر هاتف بريميوم",
-    price: "عند الطلب",
-    images: ["/products/6.png","/products/7.jpeg"],
-    description: "كفر حماية فاخر لجميع أنواع الهواتف",
+    title: "Vegetable Grating and Slicing Machine",
+    titleAr: "مكنة برش وتقطيع الخضار ",
+    price: "السعر عند الطلب",
+    images: ["/products/6.png","/products/8.jpeg"],
+    description: "مكنة لبرش وتقطيع الخضار بسهولة ",
   },
   {
     id: 7,
-    title: "Travel Backpack",
-    titleAr: "حقيبة ظهر للسفر",
-    price: "عند الطلب",
-    images: ["/products/6.png","/products/8.jpeg"],
-    description: "حقيبة ظهر عملية بتصميم عصري للسفر والعمل",
+    title: "Drinking Water Filter",
+    titleAr: "مصفات ماء الشرب",
+    price: "السعر عند الطلب",
+    images: ["/products/6.png","/products/7.jpeg"],
+    description: "لتصفية ماء الشرب من كل الرواسب الضارة",
   },
   {
     id: 8,
     title: "Bluetooth Speaker",
     titleAr: "سبيكر بلوتوث",
-    price: "40,000 SYP",
+    price: "السعر عند الطلب",
     images: ["/products/6.png","/products/bluetooth-speaker.jpg"],
     description: "سبيكر بلوتوث محمول بصوت قوي ومقاوم للماء",
   },
@@ -79,19 +79,19 @@ export const products: Product[] = [
     id: 9,
     title: "LED Desk Lamp",
     titleAr: "مصباح مكتب LED",
-    price: "22,000 SYP",
+    price: "السعر عند الطلب",
     images: ["/products/6.png","/products/led-lamp.jpg"],
     description: "مصباح مكتب LED بتصميم عصري وإضاءة قابلة للتعديل",
   },
 ]
 
-export const WHATSAPP_NUMBER = "00963988598523"
+export const WHATSAPP_NUMBER = "+963988598523"
 
 export function getWhatsAppLink(product?: Product): string {
   const baseUrl = `https://wa.me/${WHATSAPP_NUMBER}`
   if (product) {
     const message = encodeURIComponent(
-      `مرحباً، أريد الاستفسار عن المنتج: ${product.titleAr} - ${product.price}`
+      `مرحباً، أريد الاستفسار عن المنتج: ${product.titleAr} - ${product.title}`
     )
     return `${baseUrl}?text=${message}`
   }
