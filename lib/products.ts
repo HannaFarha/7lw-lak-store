@@ -56,7 +56,7 @@ export const products: Product[] = [
     title: "Vegetable Grating and Slicing Machine",
     titleAr: "مكنة برش وتقطيع الخضار ",
     price: "السعر عند الطلب",
-    images: ["/products/6.png","/products/8.jpeg"],
+    images: ["","/products/8.jpeg"],
     description: "مكنة لبرش وتقطيع الخضار بسهولة ",
   },
   {
@@ -64,27 +64,27 @@ export const products: Product[] = [
     title: "Drinking Water Filter",
     titleAr: "مصفات ماء الشرب",
     price: "السعر عند الطلب",
-    images: ["/products/6.png","/products/7.jpeg"],
+    images: ["","/products/7.jpeg"],
     description: "لتصفية ماء الشرب من كل الرواسب الضارة",
   },
   {
     id: 8,
-    title: "Bluetooth Speaker",
-    titleAr: "سبيكر بلوتوث",
+    title: "Plate covers",
+    titleAr: "اغطية الاطباق ",
     price: "السعر عند الطلب",
-    images: ["/products/6.png","/products/bluetooth-speaker.jpg"],
-    description: "سبيكر بلوتوث محمول بصوت قوي ومقاوم للماء",
+    images: ["","/products/9.jpeg"],
+    description: "اغطية الاطباق المرنة والعملية للحفاظ على الاطعمة",
   },
   {
     id: 9,
-    title: "LED Desk Lamp",
-    titleAr: "مصباح مكتب LED",
+    title: "Tic-Tac-Toe",
+    titleAr: "لعبة تك تاك تو ",
     price: "السعر عند الطلب",
-    images: ["/products/6.png","/products/led-lamp.jpg"],
-    description: "مصباح مكتب LED بتصميم عصري وإضاءة قابلة للتعديل",
+    images: ["","/products/10.jpeg"],
+    description: "لعبة كلاسيكية تناسب كل الاعمار",
   },
 ]
-
+{/* /products/6.png */}
 export const WHATSAPP_NUMBER = "+963988598523"
 
 export function getWhatsAppLink(product?: Product): string {
