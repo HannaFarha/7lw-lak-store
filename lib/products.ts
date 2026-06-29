@@ -40,7 +40,7 @@ export const products: Product[] = [
     title: "Magnetic Mesh",
     titleAr: "الشبك المغناطيسي",
     price: "السعر عند الطلب",
-    images: ["","/products/4.jpeg"],
+    images: ["/products/6.png","/products/4.jpeg"],
     description: "نظارات شمسية بتصميم عصري وحماية UV400",
   },
   {
