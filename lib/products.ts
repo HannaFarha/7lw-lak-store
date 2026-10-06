@@ -23,7 +23,7 @@ export const products: Product[] = [
     id: 2,
     title: "Magnetic Nose Dilator",
     titleAr:"موسع الانف المغناطيسي",
-    price: "السعر 1225 ل.س",
+    price: "السعر 1250 ل.س",
     images: ["","/products/2.jpeg"],
     description: " يساعد على التنفس والنوم الهادئ",
   },
@@ -39,15 +39,15 @@ export const products: Product[] = [
     id: 4,
     title: "Magnetic Mesh",
     titleAr: "الشبك المغناطيسي",
-    price: "السعر 10$",
-    images: ["/products/6.png","/products/4.jpeg"],
+    price: "السعر 8,5$",
+    images: ["","/products/4.jpeg"],
     description: "نظارات شمسية بتصميم عصري وحماية UV400",
   },
   {
     id: 5,
     title: "The Portable Chair",
     titleAr: "الكرسي المحمول",
-    price: "السعر 900 ل.س",
+    price: "السعر 1000 ل.س",
     images: ["","/products/5.jpeg"],
     description: "كرسي محمول بحجم صغير للاستعمال بأماكن متعددة",
   },
@@ -55,7 +55,7 @@ export const products: Product[] = [
     id: 6,
     title: "Vegetable Grating and Slicing Machine",
     titleAr: "مكنة برش وتقطيع الخضار ",
-    price: "السعر 1360 ل.س",
+    price: "السعر 9$",
     images: ["","/products/8.jpeg"],
     description: "مكنة لبرش وتقطيع الخضار بسهولة ",
   },
@@ -87,14 +87,14 @@ export const products: Product[] = [
     id: 10,
     title: "Portable Camping Hammock",
     titleAr: "أرجوحة شبكية قماشية للرحلات والتخييم",
-    price: "السعر عند الطلب",
+    price: "السعر 12$",
     images: ["","/products/11.jpeg"],
     description: "أرجوحة قماشية مريحة وقابلة للطي مع حقيبة حمل مثالية للحدائق والتخييم في الهواء الطلق"
   },{
     id: 11,
     title: "2 in 1 Mini Bag Sealer and Cutter",
     titleAr: "جهاز ختم وقص الأكياس 2 في 1 حراري قابلة للشحن",
-    price: "السعر 3$",
+    price: "السعر 5,3$",
     images: ["","/products/12.jpeg"],
     description: "جهاز لحام وقص الأكياس البلاستيكية صغير الحجم يعمل بالشحن لحفظ الأطعمة طازجة"
   },{
@@ -109,7 +109,7 @@ export const products: Product[] = [
     id: 13,
     title: "Inflatable Lounge Chair with Footrest",
     titleAr: "كرسي نفخ مريح مع مسند للأقدام",
-    price: "السعر 19$",
+    price: "السعر 17$",
     images: ["","/products/14.jpeg"],
     description: "طقم كنب ونفخ مريح للاسترخاء داخل المنزل أو في الاستراحة والمقيل"
   },{
@@ -123,21 +123,21 @@ export const products: Product[] = [
     id: 15,
     title: "Dental Floss Picks",
     titleAr: "خيط أسنان مائي ومقابض خيط تنظيف الأسنان",
-    price: "السعر عند الطلب",
+    price: "السعر 150 ل.س 50 قطعة ",
     images: ["","/products/16.jpeg"],
     description: "عصي وخيط تنظيف ما بين الأسنان للعناية بالصحة والتخلص من بقايا الطعام بسهولة"
   },{
     id: 16,
     title: "Potato Slicer & French Fry Cutter",
     titleAr: "قطاعة بطاطس استيل",
-    price: "السعر 9$",
+    price: "السعر 10$",
     images: ["","/products/17.jpeg"],
     description: "قطاعة بطاطس ومكعبات خضار مصنوعة من الاستانلس ستيل لتقطيع سريع وسهل"
   },{
     id: 17,
     title: "Foldable Phone & Tablet Stand",
     titleAr: "حامل هاتف وتابلت قابل للطي",
-    price: "السعر عند الطلب",
+    price: "السعر 300 ل.س ",
     images: ["","/products/18.jpeg"],
     description: "قاعدة وحامل مكتبي قابل للطي يناسب الهواتف والأجهزة اللوحية"
   },{
@@ -173,7 +173,7 @@ export const products: Product[] = [
     id: 22,
     title: "Silicone Earplugs with Case",
     titleAr: "سدادات أذن سيليكون مع علبة حفظ",
-    price: "السعر 150 ل.س",
+    price: "السعر 150 ل.س 10 قطعة",
     images: ["","/products/23.jpeg"],
     description: "سدادات أذن مريحة لتقليل الضوضاء والحماية أثناء النوم أو السباحة"
   },{
