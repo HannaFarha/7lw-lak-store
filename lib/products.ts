@@ -14,7 +14,7 @@ export const products: Product[] = [
     id: 1,
     title: "Vegetable and Fruit Slicer",
     titleAr: "قطاعة الخضار والفواكه",
-    price: "السعر 1360 ل.س",
+    price: "السعر 9$",
     images: ["","/products/1.jpeg"],
 
     description: "لقطع الخضار والفواكه بسهولة",
@@ -23,7 +23,7 @@ export const products: Product[] = [
     id: 2,
     title: "Magnetic Nose Dilator",
     titleAr:"موسع الانف المغناطيسي",
-    price: "السعر 1250 ل.س",
+    price: "السعر 8 $",
     images: ["","/products/2.jpeg"],
     description: " يساعد على التنفس والنوم الهادئ",
   },
@@ -31,7 +31,7 @@ export const products: Product[] = [
     id: 3,
     title: "Men's Shoulder Bag",
     titleAr: "حقيبة الكتف الرجالية ",
-    price: "السعر 1150 ل.س",
+    price: "السعر 8,5 $",
     images: ["","/products/3.jpeg"],
     description: "حقيبة كتف بحجم مثالي ومظهر مميز وامان لاغراضك",
   },
@@ -41,7 +41,7 @@ export const products: Product[] = [
     titleAr: "الشبك المغناطيسي",
     price: "السعر 8,5$",
     images: ["","/products/4.jpeg"],
-    description: "نظارات شمسية بتصميم عصري وحماية UV400",
+    description: "شبك مغناطيسي للحماية من الحشرات يفتح ويسكر بسهولة",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ export const products: Product[] = [
     title: "Tic-Tac-Toe",
     titleAr: "لعبة تك تاك تو ",
     price: "السعر 400 ل.س",
-    images: ["","/products/10.jpeg"],
+    images: ["","/products/10.jpg"],
     description: "لعبة كلاسيكية تناسب كل الاعمار",
   },
   {
@@ -109,7 +109,7 @@ export const products: Product[] = [
     id: 13,
     title: "Inflatable Lounge Chair with Footrest",
     titleAr: "كرسي نفخ مريح مع مسند للأقدام",
-    price: "السعر 17$",
+    price: "السعر 19$",
     images: ["","/products/14.jpeg"],
     description: "طقم كنب ونفخ مريح للاسترخاء داخل المنزل أو في الاستراحة والمقيل"
   },{
@@ -166,7 +166,7 @@ export const products: Product[] = [
     id: 21,
     title: "Disposable Toilet Seat Covers",
     titleAr: "أغطية مقعد التواليت للاستعمال مرة واحدة",
-    price: "السعر عند الطلب",
+    price: "السعر 350 ل.س 50 قطعة",
     images: ["","/products/22.jpeg"],
     description: "أغطية مقعد المرحاض البلاستيكية للحماية والنظافة الشخصية أثناء السفر والمرافق العامة"
   },{
@@ -181,7 +181,7 @@ export const products: Product[] = [
     title: "Portable Pop-up Mosquito Net Tent",
     titleAr: "خيمة ناموسية قابلة للطي للحدائق والرحلات",
     price: "السعر 10,5 $",
-    images: ["","/products/24.jpeg"],
+    images: ["","/products/24.jpg"],
     description: "شبكة ناموسية محمولة وسريعة الفتح للحماية من الحشرات أثناء التخييم والرحلات"
   },{
     id: 24,
@@ -191,6 +191,71 @@ export const products: Product[] = [
     images: ["","/products/25.jpeg"],
     description: "مظلة زجاج أمامي للسيارة قابلة للطي لحماية مقصورة السيارة من الحرارة وأشعة الشمس"
   },
+  {
+    id: 25,
+    title: "LED Makeup Mirror with Magnification",
+    titleAr: "مرآة مكياج مزودة بإضاءة LED وتكبير",
+    price: "السعر 10 $",
+    images: ["","/products/27.jpg"],
+    description: "مرآة مكياج قابلة للطي مع إضاءة LED ومستويات تكبير متعددة لوضع المكياج والعناية بالبشرة بدقة"
+  },
+  {
+    id: 26,
+    title: "Stroller Hook  ",
+    titleAr: "بديل الحزام",
+    price: "السعر 225 ل.س",
+    images: ["","/products/28.jpg"],
+    description: "بديل الحزام متين مزود بخطاف معدني "
+  },
+  {
+    id: 27,
+    title: "Inflatable Lounge Chair",
+    titleAr: "كرسي نفخ مريح",
+    price: "السعر 17 $",
+    images: ["","/products/29.jpg"],
+    description: "كرسي مريح قابل للنفخ بتصميم عصري مثالي للاسترخاء والقراءة داخل المنزل أو في الهواء الطلق"
+  },
+  {
+    id: 28,
+    title: "Filtered High Pressure Shower Head",
+    titleAr: "رأس دش مع فلتر لتقطير وتصفية المياه",
+    price: "السعر 10 $",
+    images: ["","/products/30.jpg"],
+    description: "رأس دش أسود حديث مزود بفلتر لتنقية المياه مع وضعيات ضخ متعددة لتجربة استحمام مريحة"
+  },
+  {
+    id: 29,
+    title: "Modern Waterfall Kitchen Faucet",
+    titleAr: "صنبور المطبخ الحديث مع وضعية الشلال",
+    price: "السعر 25$",
+    images: ["","/products/32.jpg"],
+    description: "خلاط مياه للمطبخ بتصميم أنيق ووضيعات رش متعددة تشمل وضعية الشلال لغسيل الخضار والأواني بفعالية"
+  },
+  {
+    id: 30,
+    title: "Double-Sided Nano Tape",
+    titleAr: "شريط لاصق نانو مزدوج الجوانب شفاف",
+    price: "السعر 1,3 $",
+    images: ["","/products/26.jpeg"],
+    description: "شريط لاصق شفاف وقوي جداً متعدد الاستخدامات لتثبيت الأشياء على الجدران دون الحاجة للثقب"
+  },
+  {
+    id: 31,
+    title: "Shoe Cleaning Brush with Liquid Dispenser",
+    titleAr: "فرشاة تنظيف الأحذية مع موزع موزع منظف",
+    price: "السعر 1,2 $",
+    images: ["","/products/31.jpg"],
+    description: "فرشاة تنظيف عملية للأحذية والملابس مزودة بخزان مدمج لسائل التنظيف لتنظيف سريع وفعال"
+  },
+  {
+    id: 32,
+    title: "Shoe Cleaning Brush with Liquid Dispenser",
+    titleAr: "مضخة الماء الاسلكية ",
+    price: "السعر 5 $",
+    images: ["","/products/33.jpg"],
+    description: "مضخة ماء لاسلكية  تساعد بسكب الماء "
+  }
+
 ]
 {/* /products/6.png */}
 export const WHATSAPP_NUMBER = "+963988598523"
