@@ -14,7 +14,7 @@ export const products: Product[] = [
     id: 1,
     title: "Vegetable and Fruit Slicer",
     titleAr: "قطاعة الخضار والفواكه",
-    price: "السعر 9$",
+    price: "السعر 7,5$",
     images: ["","/products/1.jpeg"],
 
     description: "لقطع الخضار والفواكه بسهولة",
@@ -55,7 +55,7 @@ export const products: Product[] = [
     id: 6,
     title: "Vegetable Grating and Slicing Machine",
     titleAr: "مكنة برش وتقطيع الخضار ",
-    price: "السعر 9$",
+    price: "السعر 7,5$",
     images: ["","/products/8.jpeg"],
     description: "مكنة لبرش وتقطيع الخضار بسهولة ",
   },
@@ -109,7 +109,7 @@ export const products: Product[] = [
     id: 13,
     title: "Inflatable Lounge Chair with Footrest",
     titleAr: "كرسي نفخ مريح مع مسند للأقدام",
-    price: "السعر 19$",
+    price: "السعر 17$",
     images: ["","/products/14.jpeg"],
     description: "طقم كنب ونفخ مريح للاسترخاء داخل المنزل أو في الاستراحة والمقيل"
   },{
@@ -211,7 +211,7 @@ export const products: Product[] = [
     id: 27,
     title: "Inflatable Lounge Chair",
     titleAr: "كرسي نفخ مريح",
-    price: "السعر 17 $",
+    price: "السعر 19 $",
     images: ["","/products/29.jpg"],
     description: "كرسي مريح قابل للنفخ بتصميم عصري مثالي للاسترخاء والقراءة داخل المنزل أو في الهواء الطلق"
   },
@@ -254,6 +254,14 @@ export const products: Product[] = [
     price: "السعر 5 $",
     images: ["","/products/33.jpg"],
     description: "مضخة ماء لاسلكية  تساعد بسكب الماء "
+  },{
+    id: 33,
+    title: "Professional Manicure & Pedicure Grooming Kit",
+  titleAr: "طقم أدوات العناية بالأظافر والبديكير",
+    price: "السعر 4 $",
+    images: ["","/products/34.jpeg"],
+    description: "طقم متكامل من أدوات قص وتنسيق الأظافر والعناية الشخصية المصنوعة من الاستانلس ستيل داخل حافظة أنيقة"
+
   }
 
 ]
